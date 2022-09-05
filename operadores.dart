@@ -15,4 +15,13 @@ void main() {
   print(result4);
 
   result1 = v1 % v2;
+
+  //operadores de comparacao
+
+  int n = 4;
+  int y = 1;
+  double d = 4.0;
+
+  bool value = n > y && n == d;
+  print(value);
 }
