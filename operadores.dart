@@ -6,12 +6,16 @@ void main() {
 
   double result1 = v1 + v2;
   double result2 = v1 * v2;
-  int result3 = v2 ~/ v1;
+  int result3 = v3 ~/ v1;
   double result4 = v3 / v1;
 
+  print("Soma");
   print(result1);
+  print("Multiplicação");
   print(result2);
+  print("Resultado da divisão sem exibir casas decimas");
   print(result3);
+  print("Resultado da divisão");
   print(result4);
 
   result1 = v1 % v2;
