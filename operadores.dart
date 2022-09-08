@@ -38,4 +38,16 @@ void main() {
   bool compare = and1 && and2;
   print("-------print AND  ------");
   print(compare);
+
+  //OR = ||
+
+  bool vc1 = false;
+  bool vc2 = false;
+  bool screen = vc1 || vc2;
+  print("-------print OR  ------");
+  print(screen);
+
+  //NOT = !
+  print("-------print NOT  ------");
+  print(!screen);
 }
