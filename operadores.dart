@@ -23,10 +23,11 @@ void main() {
   double d = 4.0;
 
   bool value = n > y && n == d;
+  print("------print AND , E, maior e menor");
   print(value);
 
   //comparador is
-  
+  print("-------print is-------");
   print(1.1 is int);
   print(1 is String);
 }
