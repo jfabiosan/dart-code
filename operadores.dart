@@ -24,4 +24,9 @@ void main() {
 
   bool value = n > y && n == d;
   print(value);
+
+  //comparador is
+  
+  print(1.1 is int);
+  print(1 is String);
 }
