@@ -9,4 +9,8 @@ void main() {
 
   double resultado = vetanol / vgasolina;
   print("O resultado é $resultado");
+
+  if (resultado <= 0.70) {
+    print("A melhor opção de abastecimento é ETANOL");
+  }
 }
