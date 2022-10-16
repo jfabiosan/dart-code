@@ -16,6 +16,10 @@ void main() {
   print("O resultado é $result2");
 
   if (resultado <= 0.70) {
+    print("Percentula abaixo de 70%");
     print("A melhor opção de abastecimento é ETANOL");
+  } else {
+    print("Percentula acima de 70%");
+    print("A melhor opção de abastecimento é GASOLINA");
   }
 }
