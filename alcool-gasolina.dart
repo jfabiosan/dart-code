@@ -8,7 +8,12 @@ void main() {
   double vgasolina = double.parse(stdin.readLineSync()!);
 
   double resultado = vetanol / vgasolina;
-  print("O resultado é $resultado");
+
+  //transformando double em string para reduzir digitos e exibir na tela
+  String result2 = resultado.toStringAsFixed(2);
+
+  print("Com base no resultado iremos determinar a melhor opção");
+  print("O resultado é $result2");
 
   if (resultado <= 0.70) {
     print("A melhor opção de abastecimento é ETANOL");
