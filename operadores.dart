@@ -37,8 +37,8 @@ void main() {
 
   //and = &&
 
-  bool and1 = false;
-  bool and2 = true;
+  bool and1 = true;
+  bool and2 = false;
   bool compare = and1 && and2;
   print("-------print AND  ------");
   print(compare);
