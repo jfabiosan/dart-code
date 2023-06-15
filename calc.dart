@@ -15,7 +15,27 @@ void main() {
   var numero2 = double.parse(line ?? "0");
 
   double resultado = 0;
-  if (operacao == "+") {
+
+  switch (operacao) {
+    case "+":
+      resultado = numero1 + numero2;
+      break;
+    case "-":
+      resultado = numero1 - numero2;
+      break;
+    case "*":
+      resultado = numero1 * numero2;
+      break;
+    case "/":
+      resultado = numero1 / numero2;
+      break;
+    default:
+      print("Opção Inválida");
+      exit(0);
+  }
+  print("Total = $resultado");
+/* 
+ if (operacao == "+") {
     resultado = numero1 + numero2;
   } else if (operacao == "-") {
     resultado = numero1 - numero2;
@@ -26,5 +46,6 @@ void main() {
   } else {
     print("Opção Inválida");
   }
-  print("= $resultado");
+  print("Total = $resultado");
+  */
 }
