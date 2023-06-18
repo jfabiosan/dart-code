@@ -6,7 +6,7 @@ void main() {
   param("fabio");
   print(saudacao('José'));
   print(soma(5, 10));
-  print("A soma dos valores digitados são: ${calculo(" ", " ")}");
+  print("A soma dos valores digitados são: ${calculo('', '')}");
 }
 
 String hello() {
