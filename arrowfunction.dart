@@ -1,6 +1,7 @@
 void main() {
   printTexto("fala dev");
   printTexto(soma(1, 4).toString());
+  print(soma(1, 4));
 }
 
 /*
